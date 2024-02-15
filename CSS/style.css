@@ -47,3 +47,36 @@ nav a:hover {
     text-decoration: underline;
 }
 ​
+div.container{
+  height: 500px;
+  width: 100%;
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+}
+div.div-1{
+  height: 175px;
+  background-color: red;
+  flex: 1;
+}
+div.div-2{
+  height: 175px;
+  background-color: green;
+  flex: 1;
+  margin-left:25px;
+}
+div.div-3{
+  height: 175px;
+  background-color: yellow;
+  flex: 1;
+  margin-left:25px;
+}
+
+img.img-p{
+  width:350px;
+height:350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
